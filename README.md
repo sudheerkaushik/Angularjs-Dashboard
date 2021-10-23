@@ -4,7 +4,7 @@ Angularjs based application having Dashboard layout
 
 LIVE URL : http://angularone.herokuapp.com/
 
-![](src/assets/AngularJS-logo.png)
+![](app/assets/images/AngularJS-logo.png)
 
 > Logos of Heroku, Angular and Node are Respective Logo owner's property.
 
