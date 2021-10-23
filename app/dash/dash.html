@@ -1,0 +1,34 @@
+<div id="wrapper">
+  <div id="page-wrapper" ng-controller="dash as d1">
+    <div class="row">
+      <div class="col-lg-12">
+        <h1 class="page-header mb-0">Dashboard</h1>
+        <p>The content is Static and is not coming from API or json</p>
+      </div>
+      <!-- /.col-lg-12-->
+    </div>
+    <!-- /.row-->
+    <div class="row">
+      <div ng-include="'views/stats-views/top-stats.html'"></div>
+    </div>
+    <!-- /.row-->
+    <div class="row">
+      <div class="col-md-6">
+        <div ng-include="'views/stats-views/finance-stats.html'"></div>
+        <!-- /.panel-->
+      </div>
+      <div class="col-md-6">
+        <div ng-include="'views/stats-views/revenue-stats.html'"></div>
+        <!-- /.panel-->
+      </div>
+    </div>
+    <div class="row">
+      <div ng-include="'views/bottom-pane/general-stats.html'"></div>
+      <div ng-include="'views/bottom-pane/server-stats.html'"></div>
+      <!-- /.col-lg-4-->
+    </div>
+    <!-- /.row-->
+  </div>
+  <!-- /#page-wrapper-->
+</div>
+<!-- /#wrapper-->
